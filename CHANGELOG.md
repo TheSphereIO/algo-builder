@@ -33,6 +33,8 @@ Features, Bug Fixes, API Breaking, Deprecated, Infrastructure, Template Updates
 - Add reusable workflow in GitHub action.
 - Add one batch for each package in GitHub action which uses reusable workflow.
 - Add guide about blocks in `Runtime`.
+- `signLogicSig` is added to all three wallet class of `web` package to sign transaction using logic signature.
+- `signLogicSigUsingTeal` is added to `MyAlgo Wallet` class where tealSign creates a signature compatible with ed25519verify opcode from contract address
 
 ### Breaking Changes
 
@@ -88,7 +90,7 @@ Features, Bug Fixes, API Breaking, Deprecated, Infrastructure, Template Updates
 - Added support for `secp256r1` curve to `ecdsa_verify` and `ecdsa_pk_decompress` opcodes.
 - Added support for `FirstValidTime` field for transactions opcode.
 - Added program length check on app update on the basis of extra pages in `runtime`.
-- Added support for  `Runtime` to add account from `config` file.
+- Added support for `Runtime` to add account from `config` file.
 
 #### @algo-builder/web
 
