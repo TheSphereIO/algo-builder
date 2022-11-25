@@ -33,8 +33,8 @@ Features, Bug Fixes, API Breaking, Deprecated, Infrastructure, Template Updates
 - Add reusable workflow in GitHub action.
 - Add one batch for each package in GitHub action which uses reusable workflow.
 - Add guide about blocks in `Runtime`.
-- `signLogicSig` is added to all three wallet class of `web` package to sign transaction using logic signature.
-- `signLogicSigUsingTeal` is added to `MyAlgo Wallet` class where tealSign creates a signature compatible with ed25519verify opcode from contract address
+- `signLogicSignatureTxn` is added to all three wallet class of `web` package to sign transaction using logic signature.
+- `signLogicSignature` is added to `MyAlgo Wallet` class where tealSign creates a signature compatible with ed25519verify opcode from contract address
 
 ### Breaking Changes
 
